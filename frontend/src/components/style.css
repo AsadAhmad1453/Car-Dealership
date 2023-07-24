@@ -1,0 +1,608 @@
+:root{
+    --promary-color:#bd1f3b; 
+    --secondary-color:#999999;
+
+}
+.active{
+    color: #bd1f3b !important;
+}
+
+.nav-item{
+    color: white;
+    margin-left: 30px;
+}
+.inactive {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+    text-decoration: none;
+  }
+.homepage{
+    .hero-wrap{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/bg_1.jpg");
+    }
+    .aboutusme{
+        background-image: url("../assets/about.jpg");
+    }
+    .recent-cars-card{
+        border:2px solid black;
+        padding: 20px;
+    }
+    .car-card{
+        border: 1px solid #b8b8b8;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        min-height: 300px;
+    }
+    .car-card h3{
+        font-weight: 600;
+        padding: 10px;
+    }
+    .car-card .buy-btn{
+        border: none;
+        background-color: #999999;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .car-card img{
+        height: 160px;
+    }
+    .car-card .buy-btn:hover{
+        background-color: #bd1f3b;
+    }
+    .intro-section{
+        background-image: url('../assets/about.jpg');
+    }
+    .review-card{
+        margin: 10px;
+        border: 1px solid #c9c9c9;
+        padding: 20px;
+    }
+    .review-card img{
+       border-radius: 50%;
+       height: 100px;
+       width: 100px;
+    }
+}
+.cars{
+    background-color: #f7f5f5;
+    .cars-back{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/bg_3.jpg");
+    }
+    .cars-subheading{
+        color: white;
+    }
+    .make-heading h4{
+        font-weight: 600;
+        color: #bd1f3b;
+    }
+    .brands img{
+        border: 1px solid #e6e5e5;
+        margin: 10px;
+        padding: 10px;
+    }
+    .brands img:hover{
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    .card-filter-make{
+        padding: 30px;
+        text-align: center;
+        background-color: white;
+    }
+    .filter-card{
+        padding: 30px;
+        background-color: white;
+    }
+    .filter-card h4{
+        color: #bd1f3b;
+        font-weight: 600;
+    }
+    .form-control{
+        width: 100%;
+       font-size: small;
+    }
+    .filter-card .label{
+        color: black;
+    }
+    .filter-label{
+        color: black;
+    }
+    .filter-btn{
+        background-color: #999999;
+        color: white;
+        border: none;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .filter-btn:hover{
+        background-color: #bd1f3b;
+
+    }
+    .filters{
+        color: black;
+    }
+    .filters input{
+        border: 1px solid #cecaca;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    .submit-btn{
+        border: none;
+        background-color: #999999;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        border-radius: 5px;
+    }
+    .submit-btn:hover{
+        background-color: #bd1f3b;
+    }
+    .car-card{
+        background-color: white;
+        padding: 20px;
+    }
+    .car-card h4{
+        font-weight: 600;
+
+    }
+    .car-card span{
+       
+        color: rgb(119, 119, 119);
+    }
+    .view-car{
+        text-decoration: none;
+        border: none;
+        background-color: #999999;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        border-radius: 5px;
+        
+    }
+    .view-car:hover{
+        background-color: #bd1f3b;
+    }
+}
+
+.car-detail{
+    .carousel .slick-slide img {
+        display: block;
+        margin: 0 auto;
+        max-height: 400px;
+      }
+      
+      /* Styles for the prev and next buttons */
+      .slider-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+      .slider-arrow:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      
+      .slider-arrow.slick-prev {
+        left: 10px;
+      }
+      
+      .slider-arrow.slick-next {
+        right: 10px;
+      }
+    background-color: #f7f5f5;
+    .cars-subheading{
+        color: white;
+    }
+    .cars-back{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/bg_3.jpg");
+    }
+
+    .show-card{
+        background-color:white;
+        padding: 20px;
+    }
+    .show-card h2{
+        color: #bd1f3b;
+        font-weight: 600;
+    }
+    .feature-box{
+        padding: 20px;
+        border: 1px solid rgb(202, 202, 202);
+        text-align: center;
+    }
+    .contact-info{
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+    
+    }
+    .contact-info h2{
+        font-weight: 600;
+        color: #bd1f3b;      
+    }
+    .btn-owner{
+        background-color: #999999;
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btn-owner:hover{
+        background-color: #bd1f3b;
+        color: white;
+
+    }
+    .btn-sendmsg{
+        background-color: white;
+        color:#bd1f3b;
+        border: 1px solid #bd1f3b;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btn-sendmsg:hover{
+        background-color: #bd1f3b;
+        color: white;
+    }
+    .property{
+        padding: 5px;
+    }
+
+    .description h4{
+        font-weight: 600;
+    }
+    .description span{
+        text-align: justify;
+        padding: 10px;
+    }
+    .navigate{
+        padding: 20px;
+        list-style:square;
+        position: relative;
+
+    }
+    .navigate li a{
+        text-decoration: none;
+        color: #999999;
+    }
+    .navigate li a:hover{
+        font-weight: 600;
+        color: #bd1f3b;
+        cursor: pointer;
+    }
+    .similar-cars{
+        background-color: white;
+    }
+    .car-card{
+        
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        min-height: 300px;
+    }
+    .car-card h3{
+        font-weight: 600;
+        padding: 10px;
+    }
+    .car-card .buy-btn{
+        border: none;
+        background-color: #999999;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .car-card img{
+        height: 160px;
+    }
+    .car-card .buy-btn:hover{
+        background-color: #bd1f3b;
+    }
+    .tech-card{
+        
+        padding-left: 10px;
+        border-left: 1px solid #c7c6c6;
+    }
+    .tech-card h8{
+            font-weight: 600;
+    }
+    .tech-card h7{
+        color: black;
+    }
+    
+}
+
+.contactus{
+    background-color: #f7f5f5;
+    .cars-back{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/bg_3.jpg");
+    }
+    .cars-subheading{
+        color: white;
+    }
+}
+
+.about{
+
+    .cars-back{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/bg_3.jpg");
+    }
+    .cars-subheading{
+        color: white;
+    }
+
+    .aboutus{
+        background-image: url('../assets/about.jpg');
+    }
+}
+.adminheader{
+    .btn-user{
+        border: none;
+        background-color: #bd1f3b;
+        color: white;
+        margin-right: 20px;
+        font-size: large;
+    }
+    .navbar{
+        background-color:#bd1f3b;
+       
+    }
+    .navbar-brand{
+        color: white;
+        
+    }
+    .navbar-toggler{
+        color: white;
+        background-color: white;
+    }
+    .nav-item a{
+        color: white;
+    }
+    .nav-item{
+        margin-right: 30px;
+    }
+    
+}
+.dashboard{
+    .main-heading{
+        color: #bd1f3b;
+        font-weight: 600;
+    }
+    .sub-heading h5{
+        font-weight: 600;
+    }
+    .table thead th{
+        background-color: #bd1f3b;
+        color: white;
+        text-align: center;
+    }
+    .table tr td{
+        text-align: center;
+    }
+    .btn-discard{
+        border: none;
+        background-color: rgb(2, 158, 2);
+        color: white;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .btn-viewcarr{
+        border: none;
+        background-color: rgb(253, 237, 7);
+        color: black;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.uploadcar{
+    .main-heading h3{
+        color: #bd1f3b;
+        font-weight: 600;
+    }
+    .form-card label{
+        font-size: larger;
+        color: rgb(119, 119, 119);
+        font-weight: 600;
+
+    }
+    .desss{
+        color:#868686 !important;
+        font-weight: 600;
+        font-size: larger;
+    }
+    .texxxt{
+        border: 1px solid rgb(163, 163, 163);
+    }
+    .errormsg{
+        color:red;
+        font-weight: 600;
+    }
+    .form-card input{
+        margin-left: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: 1px solid rgb(163, 163, 163);
+        width: 100%;
+    }
+    .form-card .inpuut{
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-radius: 5px;
+        border: 1px solid rgb(163, 163, 163);
+        width: 100%;
+    }
+    .btn-postad{
+        border: none;
+        background-color: #999999;
+        color: white;
+        border-radius: 5px;
+        width: 30%;
+        font-size: large;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .btn-postad:hover{
+        background-color: #bd1f3b;
+    }
+}
+.managecars{
+    .inpuut{
+        border-radius: 10px;
+        border: 1px solid rgb(153, 153, 153);
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        margin-right: 10px;
+    }
+    .searchbtn{
+        border: none;
+        background-color:#bd1f3b;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+    }
+    .searchbtn:hover{
+        background-color: #86162a;
+
+    }
+    .errordiv{
+        justify-content: center;
+    }
+    .errormsg{
+        color: red;
+        font-weight: 600;
+        font-size: larger;
+        text-align: center;
+    }
+    .main-heading h3{
+        color: #bd1f3b;
+        font-weight: 600;
+    }
+    .table thead{
+        background-color: #bd1f3b;
+        color: white;
+        text-align: center;
+    }
+    .table{
+        text-align: center;
+    }
+    .btn-delete{
+        background-color: #bd1f3b;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+    }
+    .btn-edit{
+        background-color:rgb(235, 212, 5);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        margin-left: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.admin-login{
+    .error-msg{
+        color: red !important;
+    }
+    .label{
+        color:rgb(48, 47, 47);
+    }
+    .welcome{
+        font-weight: 600;
+        font-size: 25px;
+        color: rgb(87, 86, 86);
+        
+    }
+    .logo{
+        color:#bd1f3b;
+        font-weight: 600;
+    }    
+    .image{
+    
+        background-image:
+        /* linear-gradient(to bottom, rgba(253, 253, 253, 0), rgba(19, 19, 19, 0.73)), */
+        url('../assets/login-car.jpg');
+        background-size: 100% 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat:no-repeat; 
+    }
+
+    .inpuut{
+        padding-left:10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 10px;
+       width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(163, 163, 163);
+        border-radius: 5px;
+        -webkit-appearance: none;
+
+        
+    }
+    .boorder{
+        border: 2px solid black;
+    }
+    .form{
+        width: 50%;
+    }
+
+    .buton{
+        background-color:#bd1f3b;
+       width: 100%;
+        color: white;
+        font-weight: 600;
+        border: none;
+    }
+    .buton:hover{
+        background-color:#86162a;
+        color: white;
+    }
+    input:active{
+
+        border: 2px solid rgb(76, 0, 253);
+    }
+
+    span{
+        color:rgb(59, 59, 59) ;
+        font-size: 15px;
+    }
+
+
+
+
+
+}
